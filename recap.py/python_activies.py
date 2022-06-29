@@ -1,5 +1,4 @@
-
-# activiy one
+# WEEK ONE - TEUSDAY - ACTIVITY 1
 # message = "Welcome to Code Nation"
 # messageLength = len(message) %2
 
@@ -8,27 +7,12 @@
 #     if messageLength == 0:
 #         print("Message is even")
 #     else:
-#         print("Message = odd")
+#         print("Message is odd")
 # CheckLength()
 
 
 
-
-
-# alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u", "v", "w","x","y","z"]
-
-# for i in alpha:
-#     print(i)
-
-# x = input()
-# print(alphat[x])
-
-
-#---------------------------------------------------------
-
 # test_srting = "welcome to code nation"
-
-
 
 # def odd_even_checker(test_string):
 #     string_len = len(test_srting)
@@ -37,7 +21,10 @@
 #     else:
 #         print(f"the {test_string} is odd")
 
-#-----------------------------------------------
+
+
+
+# ACTIVIY TWO
 
 # alpha = ["a","b","c","d","e","f","g","h","i","j","k","","m","n","o","p","q","r","s","t","u", "v", "w","x","yl","z"]
 
@@ -95,8 +82,8 @@ print(Countries.items())
 
 # ACTIVITY 3
 
-# not really sure if this is what im supposed to do...
 
+#made list items into dictionaties.
 fav_songs = [
 {"artist":"the protomen", "song_name":"the hounds", "genre":"rock","release_year":"2009"},
 
@@ -106,14 +93,17 @@ fav_songs = [
 
 print(fav_songs)
 
+# added to list
 fav_songs.append({"artist":"meatloaf", "song_name":"bat out of hell", "genre":"hard rock","release_year":"1977"})
 
 print(fav_songs)
 
+# removed from list
 fav_songs.remove({"artist":"mamamoo", "song_name":"piano man", "genre":"K-pop","release_year":"2014"})
 
 print(fav_songs)
 
+#changed item in list
 fav_songs[0]={"artist":"the protomen", "song_name":"will of one", "genre":"hard rock","release_year":"2005"}
 
 print(fav_songs)

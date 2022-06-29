@@ -29,7 +29,7 @@ print(cat_keys)
 #print(my_cat.values())
 #print(my_cat.items())#watch video later
 #print(my_cat.get("name"))
-#print(my_cat.get("legs","this key doesn't exist")#no fatal error and error message.
+#print(my_cat.get("legs","this key doesn't exist")) #no fatal error and error message.
 
 #print(my_cat.keys())
 #print(list(my_cat.keys()))#makes it easier to read by making it more like a list. make it iterable/can move through it un like dictionary. only runs though keys?
