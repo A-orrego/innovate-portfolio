@@ -1,4 +1,4 @@
-import random
+import random #alway at the top
 
 # # converting data types
 
@@ -114,7 +114,7 @@ import random
 
 #print(fav_songs[1]) is the same but the rest is also runnig in the background. 
 
-#test[::-1]
+#test[::-1] will slice through the whole list from strat to finish
 
 
 
@@ -145,10 +145,32 @@ while num%2 == 0:
     print("even")
     num=random.randint(1,50)
 
+#if number is odd, the while loop will not run
 print("oh no odd")
 
 
-################################
+#
+
 
 while True:
-    num
+    num=random.randint(1,50)
+    print(num)
+    if num%2==0:
+        print("We like even numbers! Another!")
+        continue
+    else:
+        print("An odd number!")
+        break
+
+
+#This while loop will always initialise. it might go straight to the else/break but it will've already started
+
+#--------------------------------
+
+
+
+
+
+
+
+
