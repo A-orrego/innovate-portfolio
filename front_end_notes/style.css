@@ -1,0 +1,132 @@
+/* to link to html page - type link css into html page in the head section */
+
+
+    /* cascading style sheets
+inline
+internal - one each indevidual page 
+external- linked to html page */
+
+/* selecter{
+    proprety: value
+    proprety: value
+} */
+
+body{
+    background-color:coral;
+}
+
+p{
+    color: blueviolet;
+    font-size: 22px;
+}
+
+/* dry code dont write the same code twice. group together if 2 selecrers share same styling*/
+
+h1, h2{
+    color:darkblue;
+    font-size: 22px;
+}
+
+/* ( * )- wild card selects ever singie element on the page  
+*{
+    box-sizing:
+}*/
+
+/* to target specific elements use a class. */
+
+/* add class="classname" to add to the html*/
+.centretext{
+    text-align: center;
+}
+
+/* id more important  */
+
+#top{
+    text-decoration: underline;
+}
+
+/*other selectors - 
+double name
+
+any within perent nav
+as long as its in nav it will apply
+
+nav a{
+    color: hotpink;
+    font-size: 30px;
+
+}*/
+
+/* only with  direct parent of nav will change
+
+nav>a{
+    color: black;
+    font-size: 30px;
+} */
+
+
+/* pseudo classes allow access the state of an element. not limited to links*/
+a:hover{
+    color: chocolate;
+}
+
+
+/* img:hover{
+    border: 10px solid blue
+} */
+
+/*some psuedo classes,there are many more
+a
+a:visited
+a:hover
+a:active  */
+
+/* element sizing
+
+px - pixels (try avoid)
+% - percentage (% of body, because parent)
+vh - view height (40% of the veiwport. works off the browser)
+*/
+
+.content{
+    /* text-align: center; (unrelated to sizing)*/
+    /* width: 400px; */
+    width: 40%;
+    /* width: 40vw; */
+}
+
+/* overflow content outside of box 
+
+overflow: visible (default value)
+overflow: hidden (overflow is clipped and hidden)
+overflow: scroll (overflow is clipped and scroll axis added)
+overflow: auto()
+*/
+.content{
+    margin-left:auto ;
+    margin-right:auto;
+    display: block;
+    width: 540px;
+
+
+
+
+}
+
+
+/* box mode 
+
+content
+    - the content of the element, where the text and image
+    appear
+padding
+    - clears the area around the content, the padding is transparent
+border
+    - A border that outlines the content and padding
+margin
+    - clears an area out side the border
+
+*/
+
+/* box sizing stes if ant padding and border values are included in the element 
+.content  */
