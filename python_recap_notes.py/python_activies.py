@@ -60,7 +60,7 @@
 Countries = {"United Kingdom":"London",
 "France":"Paris", "Germany":"Berlin", "Spain":"Madrid", "Italy":"Rome"}
 
-# added 2 countries
+# added 2 countries using .notation
 Countries.setdefault("Chile","Santiago")
 Countries.setdefault("Japan","Tokyo")
 
@@ -71,7 +71,7 @@ print(Countries.items())
 #change to language 
 Countries["United Kingdom"]="English"
 Countries["Spain"]= "Spanish"
-Countries["Italy"] ="Spanish"
+Countries["Italy"] ="Italian"
 Countries["Germany"]="German"
 Countries["France"]="French"
 Countries["Japan"]="Japanese"
