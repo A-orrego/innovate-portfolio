@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap");
+
+/* imported font families: "Poiret One", cursive; font-family: "Josefin Sans", sans-serif;    */
+
+$mainAccent: #2a4711; // scss version of a veriable
+$headingFont:"Poiret One", cursive;
+$contentFont:"Josefin Sans", sans-serif;
+
+// giving a perameter allows you to define each one separetly when special is used
+@mixin heading($special) {
+  font-family: $headingFont;
+  color: $special;
+  text-align: center;
+  margin-top: 0px;
+}

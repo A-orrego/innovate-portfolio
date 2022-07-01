@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap');/* always at the top  */
+
+@font-face {
+    font-family: shan;
+    src: url('Shandora\ DEMO.ttf');
+} /* need ('')? worked with out it */
+
+*{
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: shan; */
+}
+
+
+
 /* to link to html page - type link css into html page in the head section */
 
 
@@ -114,7 +129,7 @@ overflow: auto()
 }
 
 
-/* box mode 
+/* box model
 
 content
     - the content of the element, where the text and image
@@ -130,3 +145,34 @@ margin
 
 /* box sizing stes if ant padding and border values are included in the element 
 .content  */
+
+
+/* put text-align:centre; img, works because its an in line element */
+
+/* float wraps text, */
+img{
+    width: 30%;
+    float: left;
+    padding: 20px; /* could use padding-right if you want it only on the right */
+}
+/*  */
+
+/*Font properties
+color - is font color
+size - size of font
+weight - thickness (bold) between 100-900 (can use) 
+style
+decoration
+align*/
+
+/* font family only a few font are recognised by browsers at default. can import not commen fonts
+fonts.google*/
+
+/* font face allows to upload font insteand of import.
+steps - download, unzip, and move to project file.
+
+syntax:
+@font-face {
+    font-family: face;
+    src: url();
+} */
