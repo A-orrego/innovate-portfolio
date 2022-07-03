@@ -5,6 +5,8 @@
     src: url('Shandora\ DEMO.ttf');
 } /* need ('')? worked with out it */
 
+
+/* ( * )- wild card selects ever single element on the page */
 *{
     box-sizing: border-box ;
     font-family: 'Poppins', sans-serif;
@@ -26,69 +28,123 @@ external- linked to html page */
     proprety: value
 } */
 
+
+
 body{
-    background-color:coral;
+    background-color:black;
 }
+
+
+
+#navbar{
+    background-color: gray;
+    color: orangered;
+    height: 40px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration:none;
+    color: blanchedalmond;
+}
+
+#navbar a:hover{
+    color: chocolate; 
+    border-bottom: 2px chocolate solid;
+}
+/* pseudo classes allow access the state of an element. not limited to links*/
+
+
+
+
+
+
+/* styling of the div with the id="main" */
+#main{
+    background-color: white;
+    display: flex;
+    border: 10px solid orangered;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+img{
+    padding: 10px;
+    border: 10px;
+    width: 70%;
+    height: 70%;
+}
+
+img:hover{
+    border: 10px solid rgb(27, 27, 45)
+}
+
 
 p{
     color: blueviolet;
     font-size: 22px;
 }
+h1,
 
-/* dry code dont write the same code twice. group together if 2 selecrers share same styling*/
-
-h1, h2{
-    color:darkblue;
-    font-size: 22px;
+h2{
+    color:orangered;
+    /* font-size: 22px; */
 }
 
-/* ( * )- wild card selects ever singie element on the page  
-*{
-    box-sizing:
-}*/
-
-/* to target specific elements use a class. */
-
-/* add class="classname" to add to the html*/
-.centretext{
-    text-align: center;
+footer a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: larger;
 }
 
-/* id more important  */
-
-#top{
-    text-decoration: underline;
+footer a:hover{
+    border-bottom: 2px blueviolet solid;
 }
+/* dry code - dont write the same code twice. group together if 2 selecrers share same styling*/
+
+
+
+
+
+
+
+
+
+
+
+/* to target specific elements use a class.
+use class="classname" to add a class to the html*/
+
+
+/* id's are more important than class  */
+
+
 
 /*other selectors - 
 double name
 
+
 any within perent nav
 as long as its in nav it will apply
-
 nav a{
     color: hotpink;
-    font-size: 30px;
+    font-size: 30px;}
+*/
 
-}*/
 
 /* only with  direct parent of nav will change
-
 nav>a{
     color: black;
     font-size: 30px;
 } */
 
 
-/* pseudo classes allow access the state of an element. not limited to links*/
-a:hover{
-    color: chocolate;
-}
-
-
-/* img:hover{
-    border: 10px solid blue
-} */
 
 /*some psuedo classes,there are many more
 a
@@ -103,12 +159,9 @@ px - pixels (try avoid)
 vh - view height (40% of the veiwport. works off the browser)
 */
 
-.content{
-    /* text-align: center; (unrelated to sizing)*/
-    /* width: 400px; */
-    width: 40%;
-    /* width: 40vw; */
-}
+/* .content{
+    text-align: center; /* (unrelated to sizing)} */
+
 
 /* overflow content outside of box 
 
@@ -117,16 +170,12 @@ overflow: hidden (overflow is clipped and hidden)
 overflow: scroll (overflow is clipped and scroll axis added)
 overflow: auto()
 */
-.content{
+/* .content{
     margin-left:auto ;
     margin-right:auto;
     display: block;
     width: 540px;
-
-
-
-
-}
+} */
 
 
 /* box model
@@ -150,12 +199,12 @@ margin
 /* put text-align:centre; img, works because its an in line element */
 
 /* float wraps text, */
-img{
+/* #pic1{
     width: 30%;
     float: left;
     padding: 20px; /* could use padding-right if you want it only on the right */
-}
-/*  */
+/* } */ 
+
 
 /*Font properties
 color - is font color
@@ -175,4 +224,5 @@ syntax:
 @font-face {
     font-family: face;
     src: url();
-} */
+}
+
