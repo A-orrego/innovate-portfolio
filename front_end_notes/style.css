@@ -99,12 +99,12 @@ h2{
 
 footer a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(39, 25, 53);
     font-size: larger;
 }
 
 footer a:hover{
-    border-bottom: 2px blueviolet solid;
+    border-bottom: 2px rgb(39, 25, 53) solid;
 }
 /* dry code - dont write the same code twice. group together if 2 selecrers share same styling*/
 
