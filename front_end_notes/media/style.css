@@ -1,0 +1,93 @@
+body{
+    color: red;
+}
+
+.desktop, .mobile{
+    display: none;
+}
+
+/* UNDER MAIN STYLING
+rule comes into effect when */
+/* @media(max-width: 500px){
+    body{
+        color: blue;
+    }
+} */
+
+@media(orientation: portrait){
+    .title{
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .mobile{
+        display: inline-block;
+
+    }
+
+
+
+}
+
+
+
+@media(orientation: landscape){
+    .subtitles{
+        color: green;
+        background-color: orange;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .desktop{
+        display: inline-block;
+    }
+}
+
+/* @media(orientation: landscape){
+    .desktop {
+        display: inline-block;
+    } 
+} */
+
+/* @media(orientation: portrait){
+    .mobile{
+        display: inline-block;
+    }
+} */
+
+
+
+/* css unit of measurements
+ABOSLUTE - PX 
+
+RELETIVE: (preferred with media queries)
+EM - reletive to its parent
+%
+REM - reletive to the browsers root size (16px?) (easier to do?)
+/* VW(view width)& vH(view height) - takes up space reletive to the view port size, will size with the browser. */
+
+/* typicly made to look on mobile first and media queries a to expand (small to big)
+ */
+
+
+
+/* body{
+    
+    background-color: green ;
+}
+
+@media(min-width: 600px){
+    body{
+        background-color: red;
+    }
+}
+@media(min-width: 900px){
+    body{
+        background-color: blue;
+    }
+} */
+
+

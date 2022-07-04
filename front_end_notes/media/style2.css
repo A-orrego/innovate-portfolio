@@ -1,0 +1,19 @@
+/* typicly made to look on mobile first and media queries a to expand (small to big)
+ */
+
+
+body{
+    
+    background-color: green ;
+}
+
+@media(min-width: 600px){
+    body{
+        background-color: red;
+    }
+}
+@media(min-width: 900px){
+    body{
+        background-color: blue;
+    }
+} 

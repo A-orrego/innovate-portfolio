@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+    color: black;
+
+}
+
+.desktop, .mobile{
+    display: none;
+}
+
+@media(orientation: portrait){
+    body{
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .mobile{
+        display: inline-block;
+
+    }
+}
+
+
+
+@media(orientation: landscape){
+    body{
+        color: black;
+        background-color: white;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .desktop{
+        display: inline-block;
+    }
+}
