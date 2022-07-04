@@ -4,8 +4,8 @@ class Character():
         self.superhero_name = superhero_name
 
 
-def set_power(self, super_power):
-    self_power = super_power
+    def set_power(self, super_power):
+        self.power = super_power
 
-def get_power(self):
-    print(set_power)
+    def get_power(self):
+        print(self.power)
