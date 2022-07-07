@@ -1,17 +1,18 @@
 # WEEK ONE - TEUSDAY - ACTIVITY 1
-# message = "Welcome to Code Nation"
-# messageLength = len(message) %2
 
-# def CheckLength():
-#     print(messageLength)
-#     if messageLength == 0:
-#         print("Message is even")
-#     else:
-#         print("Message is odd")
-# CheckLength()
+message = "Welcome to Code Nation"
+messageLength = len(message) %2
+
+def CheckLength():
+    print(messageLength)
+    if messageLength == 0:
+        print("Message is even")
+    else:
+        print("Message is odd")
+CheckLength()
 
 
-
+#Example
 # test_srting = "welcome to code nation"
 
 # def odd_even_checker(test_string):
@@ -26,31 +27,31 @@
 
 # ACTIVIY TWO
 
-# alpha = ["a","b","c","d","e","f","g","h","i","j","k","","m","n","o","p","q","r","s","t","u", "v", "w","x","yl","z"]
+alpha = ["a","b","c","d","e","f","g","h","i","j","k","","m","n","o","p","q","r","s","t","u", "v", "w","x","yl","z"]
 
-# for i in alpha:
-#     print(i)
+for i in alpha:
+    print(i)
 
-# answer=int(input("type a number to see the corresponding letter"))
-# answer -=1
-# print(alpha[answer])
+answer=int(input("type a number to see the corresponding letter"))
+answer -=1
+print(alpha[answer])
 
 
 
 
 #  WEEK ONE - WEDNESDAY - ACTIVIY 1
 
-# def is_answer_num():
-#     answer = input("please enter a number")
+def is_answer_num():
+    answer = input("please enter a number")
 
-#     try:
-#         print(int(answer))
-#         print(type(int(answer)))
-#     except:
-#         print("try again")
-#         is_answer_num()
+    try:
+        print(int(answer))
+        print(type(int(answer)))
+    except:
+        print("try again")
+        is_answer_num()
 
-# is_answer_num()
+is_answer_num()
 
 
 
